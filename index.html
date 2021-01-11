@@ -1,0 +1,38 @@
+<html>
+    <head>
+         <link rel="stylesheet" href="css/style.css">
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+        <script src="https://api.trello.com/1/client.js?key=761e9e8b883e0db6d513b349a64573ac"></script>
+        <script src="js/config.js" type="text/javascript"></script>
+        <script src="js/client.js" type="text/javascript"></script>
+        <!--
+             <script type="text/javascript" src="js/trello-to-orgmode.js"></script>
+        -->
+    </head>
+    <body>
+        <h1>probando trello</h1>
+
+        <div id="tablero"></div>
+
+        <div id="client">
+            <div id="loggedout">
+                <a id="connectLink" href="#">Connect To Trello</a>
+            </div>
+
+            <div id="loggedin">
+                <div id="header">
+                    Logged in to as <span id="fullName"></span>
+                    <a id="disconnect" href="#">Log Out</a>
+                </div>
+
+                <div id="output"></div>
+
+                <a id="rename" href="#">Rename</a>
+            </div>
+        </div>
+
+    </body>
+</html>
