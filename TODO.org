@@ -1,0 +1,24 @@
+#+TITLE: TODO LIST
+
+* [TODO] Integrar bower
+* [TODO] Inicializar npm
+* [TODO] Evaluar de gestores de tareas
+  1. gruntjs
+  2. gulpjs
+* [TODO] Analizar alternativas de lenguaje
+  - Coffescript
+  - Typescript
+* [TODO] Cambiar estructura de ficheros
+* [TODO] Generar archivo org mode para descargar
+* [TODO] Sincronizar generación por cada evento del tablero
+* [TODO] Automatizar cambios al tablero según org mode
+* [TODO] Incoporar properties con metadata
+** Referencias
+   1. [[https://orgmode.org/manual/Property-Syntax.html][Property Syntax - orgmode.org]]
+   2. [[https://alphaalgorithms.github.io/2019/05/22/emacs-properties-and-columns/][Properties and columns - DummyHead]]
+
+* [TODO] Evaluar uso de variables globales del archivo de configuración 
+** Referencias
+   1. [[https://developer.mozilla.org/es/docs/Web/API/Window/localStorage][Window.localstorage - developer.mozilla.org]]
+
+* [TODO] Maquetar simulando org mode
